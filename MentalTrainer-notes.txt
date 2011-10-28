@@ -1,0 +1,2 @@
++text pattern: quckly scan large texts for target pattern, and find all occurences
++lese-trainer, speed-reading training/reader -m isspelled text fast reading
