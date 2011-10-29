@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    
+    <com.metamind.iqtrain_ae.IQtrainView
+      android:id="@+id/menu"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+                <TextView
+          android:id="@+id/text"
+		  android:text="dude"
+		  android:visibility="invisible"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center_horizontal"
+          android:textColor="#88ffffff"
+          android:textSize="24sp"/>
+ 
+
+</LinearLayout>
+
+
+</FrameLayout>
